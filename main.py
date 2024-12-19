@@ -6,11 +6,7 @@ def main():
     pygame.init()  
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
     
-    print("Starting asteroids!")
-    
-    while True: # Add the game loop
-        # Handle events
-            
+    while True: # Add the game loop         
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
